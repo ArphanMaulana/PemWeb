@@ -1,0 +1,93 @@
+:root {
+    --primary: #000000;
+    --bg: #000000;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: var(--bg); */
+    background-image: url("https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?t=st=1717414726~exp=1717418326~hmac=7ff3836ca5dc3ddf38d893976a9049fe52e1b801bda8c143913cb54ec40adbaf&w=740");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  } 
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3); /* Added for semi-transparency */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: translucent border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
+  }
+  
+  .login-container h1 {
+    font-size: 24px;
+    color: var(--primary);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--bg);
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-container button:hover {
+    background-color: #000000;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 15px;
+    }
+  
+    .login-container h1 {
+      font-size: 20px;
+    }
+  
+    .login-container button {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 10px;
+    }
+  
+    .login-container h1 {
+      font-size: 18px;
+    }
+  
+    .login-container button {
+      font-size: 12px;
+    }
+  }

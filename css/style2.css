@@ -1,0 +1,116 @@
+/* style2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #d32f2f;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#productList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#productList li {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+#productList li img {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#productList li h3 {
+    margin: 0 0 10px 0;
+    flex-grow: 1;
+}
+
+#productList li p {
+    margin: 0 0 10px 0;
+}
+
+#productList li .actions {
+    display: flex;
+    gap: 10px;
+}
+
+#productList li .actions form {
+    margin: 0;
+}
+
+#productList li .actions button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#productList li .actions button:hover {
+    background-color: #d32f2f;
+}
+
+#productList li .actions button:nth-child(2) {
+    background-color: #4CAF50;
+}
+
+#productList li .actions button:nth-child(2):hover {
+    background-color: #388E3C;
+}
+
+#productList li span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
